@@ -1,0 +1,286 @@
+.contactbg {
+  background-image: url("../assets/bg.jpg");
+  padding-top: 63.8px;
+  padding-bottom: 78px;
+}
+
+.contact {
+  color: #2fb4d1;
+  font-size: 60px;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 540;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 40px;
+}
+
+.con-border {
+  height: 476px;
+  border: 1px solid #ffffff;
+  border-radius: 1.5%;
+  margin: 0px 150px;
+  padding: 24px;
+}
+.con-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.cd {
+  font-size: 35px;
+  font-weight: 700;
+  color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 28px;
+}
+.cdp {
+  color: #bbbbbb;
+  font-size: 16px;
+  line-height: 8px;
+  padding: 20px 0px;
+  padding-left: 78px;
+}
+.con-way {
+  padding-left: 90px;
+  line-height: 43px;
+}
+.con-way svg {
+  font-size: 20px;
+  color: #2fb4d1;
+}
+
+.cc {
+  cursor: pointer;
+  padding-top: 17px;
+}
+.cc a:hover {
+  color: #e3c308;
+}
+.cc a {
+  text-decoration: none;
+  color: #dce2ff;
+}
+.ce {
+  cursor: pointer;
+  margin-top: 17px;
+}
+.ce a:hover {
+  color: #e3c308;
+}
+.ce a {
+  text-decoration: none;
+  color: #dce2ff;
+}
+.cl {
+  cursor: pointer;
+  padding-left: 13px;
+  padding-top: 17px;
+  color: #dce2ff;
+}
+.cl:hover {
+  color: #e3c308;
+}
+
+.animation {
+  padding-left: 80px;
+  padding-top: 25px;
+}
+.design {
+  height: 10px;
+  width: 300px;
+  background-color: #2fb4d1;
+  border-radius: 80%;
+  margin-left: 84px;
+}
+
+.cli {
+  padding-bottom: 165px;
+  padding-right: 5px;
+}
+.cli a:hover {
+  /* color: #e3c308; */
+  color: #fee13b;
+}
+
+.ci {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 19px;
+  cursor: pointer;
+}
+.ci svg {
+  height: 28px;
+  width: 28px;
+}
+
+/* ********** extra small devices *********** */
+@media (max-width: 600px) {
+  .contactbg {
+    height: 1000px;
+    width: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .contact {
+    font-size: 65px;
+    padding: 80px 0 0 0;
+  }
+  .animation {
+    display: none;
+  }
+  .con-border {
+    height: 0px;
+    border: none;
+    border-radius: 1.5%;
+    margin: 0;
+    padding: 0;
+  }
+  .con-details {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 0 0 100px;
+    margin: 0;
+  }
+
+  .cd p {
+    padding-right: 112px;
+    align-items: flex-start;
+    font-size: 57px;
+    line-height: 45px;
+  }
+  .cdp {
+    padding-bottom: 25px;
+  }
+  .cdp p {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .con-way {
+    font-size: 30px;
+    line-height: 80px;
+    padding-left: 90px;
+  }
+  .con-way svg {
+    font-size: 40px;
+  }
+  .cl {
+    padding-left: 8px;
+  }
+  .cc {
+    padding-left: 5px;
+  }
+  .cli {
+    padding: 55px 0 55px 104px;
+    display: flex;
+  }
+  .cli a {
+    margin-right: 33px;
+  }
+  .ci {
+    height: 77px;
+    width: 77px;
+  }
+  .ci svg {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+/* *********** small and medium devices *********** */
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .contactbg {
+    height: 635px;
+    padding: 0;
+    margin: 0;
+  }
+  .contact {
+    font-size: 55px;
+    padding: 50px 0 0 0;
+  }
+  .animation {
+    display: none;
+  }
+  .con-border {
+    height: 0px;
+    border: none;
+    border-radius: 1.5%;
+    margin: 0;
+    padding: 0;
+  }
+  .con-details {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 0 0 100px;
+    margin: 0;
+  }
+
+  .cd p {
+    padding-right: 68px;
+    align-items: flex-start;
+    font-size: 30px;
+    line-height: 20px;
+  }
+  .cdp {
+    padding-bottom: 5px;
+  }
+  .cdp p {
+    font-size: 20px;
+    line-height: 17px;
+  }
+  .con-way {
+    font-size: 19px;
+    line-height: 45px;
+    padding-left: 75px;
+  }
+  .con-way svg {
+    font-size: 21px;
+  }
+  .cl {
+    padding-left: 8px;
+  }
+  .cc {
+    padding-left: 5px;
+  }
+  .cli {
+    padding: 20px 0 0px 78px;
+    display: flex;
+  }
+  .cli a {
+    margin-right: 20px;
+  }
+  .ci {
+    height: 50px;
+    width: 50px;
+  }
+  .ci svg {
+    height: 35px;
+    width: 35px;
+  }
+
+  /* ############### medium devices ################ */
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .con-details {
+      padding-left: 260px;
+    }
+  }
+}
+
+

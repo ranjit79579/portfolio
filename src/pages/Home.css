@@ -1,0 +1,188 @@
+.homebg {
+  background-image: url("../assets/bg.jpg");
+  color: #ffffff;
+}
+
+.hd {
+  margin-top: 55px;
+  padding-left: 295px;
+}
+
+.hd a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hello {
+  font-size: 48px;
+  line-height: 73px;
+}
+
+.rk {
+  font-size: 60px;
+  line-height: 68px;
+  color: #0b91e4;
+}
+
+.fs {
+  color: #e0b50f;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.hb {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.hi {
+  margin-top: 95px;
+  padding-left: 150px;
+}
+
+
+/* *********** extra small devices *********** */
+
+@media (max-width: 600px) {
+  .homebg {
+    width: 100vh;
+  }
+  .hd {
+    padding: 0 0 0 58px;
+    margin: 38px 0 0 0;
+  }
+  .hello {
+    font-size: 85px;
+    padding: 0 0 65px 0;
+  }
+  .rk {
+    font-weight: 700;
+    font-size: 100px;
+    padding: 0 0 35px 0;
+  }
+  .fs {
+    font-size: 48px;
+    padding: 0 0 43px 0;
+  }
+  .hb {
+    padding: 15px 55px;
+    line-height: 50px;
+    font-size: 37px;
+  }
+  .hi img {
+    height: 400px;
+    width: 420px;
+    padding: 0 0 15px 34px;
+  }
+}
+
+/* *********** small devices *********** */
+
+@media (min-width: 600px) and (max-width:768px) {
+  .homebg {
+    background-image: url("../assets/bg.jpg");
+    color: #ffffff;
+  }
+
+  .hd {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    padding-left: 100px;
+    padding-right: 20px;
+  }
+
+  .hd a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hello {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .rk {
+    font-size: 60px;
+    line-height: 80px;
+    color: #0b91e4;
+  }
+
+  .fs {
+    color: #e0b50f;
+    font-size: 30px;
+    line-height: 25px;
+    margin-top: 0px;
+  }
+
+  .hb {
+    margin-top: 17px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .hi {
+    margin-top: 45px;
+    padding-left: 119px;
+  }
+  .hi img {
+    height: 320px;
+    width: 320px;
+  }
+}
+
+
+
+/* *********** medium devices *********** */
+
+@media (min-width: 768px) and (max-width:992px) {
+  .homebg {
+    background-image: url("../assets/bg.jpg");
+    color: #ffffff;
+  }
+
+  .hd {
+    margin-top: 45px;
+    margin-bottom: 75px;
+    padding-left: 80px;
+    padding-right: 30px;
+  }
+
+  .hd a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hello {
+    font-size: 45px;
+    line-height: 55px;
+    padding-bottom: 15px;
+  }
+
+  .rk {
+    font-size: 55px;
+    line-height: 55px;
+    color: #0b91e4;
+  }
+
+  .fs {
+    color: #e0b50f;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 0px;
+  }
+
+  .hb {
+    margin-top: 17px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .hi {
+    margin-top: 85px;
+    padding-left: 40px;
+  }
+  .hi img {
+    height: 320px;
+    width: 320px;
+  }
+}
+
+
+

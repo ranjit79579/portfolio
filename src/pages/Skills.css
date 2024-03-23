@@ -1,0 +1,183 @@
+.skillbg{
+  background-image: url('../assets/bg.jpg');
+  padding: 63.8px;
+  z-index: 1;
+}
+.skills {
+  color: #2fb4d1;
+  font-size: 60px;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 540;
+  text-align: center;
+
+}
+.ss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.main {
+  background-color: #2fb4d1;
+  height: 120px;
+  width: 138.66px;
+  margin: 12px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #ffffff;
+  cursor: pointer;
+
+}
+
+.icon-main{
+height: 80px;
+  width: 80px;
+}
+
+
+.icon {
+  height: 80px;
+  width: 80px;
+  background-color: #ffffff;
+  margin-top: 12px;
+ border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.ico{
+  margin: 21.325px;
+transition: ico 1s, transform 1.2s;
+}
+
+.ico:hover{
+  transform:rotateZ(360deg);
+}
+.ib{
+  margin-top: 5px;
+}
+
+
+.in{
+  color: #1a202c;
+  font-size: 16px;
+  line-height: 16px;
+
+}
+
+
+
+/* ********* extra small devices ******** */
+
+@media(max-width:600px){
+  .skillbg{
+    width: 100vh;
+    padding: 30px 0;
+  }
+  .skills{
+    padding: 0 0 10px 0;
+    font-size: 65px;
+  }
+  .ss{
+    display: flex;
+   flex-wrap: wrap;
+   
+  }
+  .main{
+    height: 212px;
+    width: 243px;
+   margin: 24px ;
+  }
+  .icon{
+    height: 145px;
+    width: 145px;
+  }
+  .ico img{
+    height: 100px;
+    width: 100px;
+  }
+  .ib p{
+    padding: 12px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
+
+
+/* *********** small and medium devices *********** */
+
+@media(min-width:600px) and (max-width:768px) {
+  .skillbg{
+    padding: 20px 0;
+  }
+  .skills{
+    padding: 0 0 10px 0;
+    font-size: 55px;
+  }
+  .ss{
+    display: flex;
+   flex-wrap: wrap;
+   
+  }
+  .main{
+    height: 150px;
+    width: 180px;
+   margin: 14px ;
+  }
+  .icon{
+    height: 100px;
+    width: 100px;
+  }
+  .ico img{
+    height: 70px;
+    width: 70px;
+  }
+  .ib p{
+    padding: 7.5px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+  /* *********** medium devices *********** */
+
+  @media(min-width:768px) and (max-width:992px) {
+    .skillbg{
+      padding: 20px 0;
+    }
+    .skills{
+      padding: 0 0 10px 0;
+      font-size: 55px;
+    }
+    .ss{
+      display: flex;
+     flex-wrap: wrap;
+     
+    }
+    .main{
+      height: 150px;
+      width: 230px;
+     margin: 15px ;
+    }
+    .icon{
+      height: 100px;
+      width: 100px;
+    }
+    .ico img{
+      height: 70px;
+      width: 70px;
+    }
+    .ib p{
+      padding: 7.5px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  
+}
+
+
